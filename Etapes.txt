@@ -4,4 +4,8 @@ Projet avec NextJS
 1. créer projet : npx create-next-app@latest
 2. install contentfull dependance : npm i contentful
 3. creer mon content-type sur contentful4. creer mon contentful
-5. coonection avec mes cles API contentful 
+5. coonection avec mes cles API contentful => setting => API Keys => add APIkeys
+6.création fichier .env.local avec mes variables d'environement
+
+pour le richText
+=> npm i  @contentful/rich-text-react-renderer

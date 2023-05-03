@@ -11,7 +11,6 @@ export default function Home({ posts }) {
         posts.map(post=>(
           <Link href={`post/${post.fields.slug}`}key={post.sys.id}>
           <Card
-            
             title={post.fields.title} 
             excerpt={post.fields.excerpt} 
             img={post.fields.featuredImage.fields.file.url}
