@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+#hero{
+    z-index: 99;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #ff01ee, #f6ff00);
+}
+
+#backColor{
+    z-index: 100;
+    position: absolute;
+    top: 0; left: 0;
+    background-image: url('/img/bg_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    width: 100vw;
+    height: 100vh;
+}
