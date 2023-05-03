@@ -1,6 +1,7 @@
 import Card from "@/components/Card";
 import Layout from "@/components/layout/Layout";
 import { createClient } from "contentful";
+import Link from "next/link";
 
 export default function Home({ posts }) {
   return (
@@ -8,7 +9,16 @@ export default function Home({ posts }) {
       <h1 className="text-red-500">Hello world</h1>
       {
         posts.map(post=>(
-          <Card title={post.fields.title} excerpt={post.fields.excerpt}/>
+          <Link href={`post/${post.fields.slug}`}key={post.sys.id}>
+          <Card
+            
+            title={post.fields.title} 
+            excerpt={post.fields.excerpt} 
+            img={post.fields.featuredImage.fields.file.url}
+            slug={post.fields.slug}
+            />
+            </Link>
+            
         ))
       }
     </Layout>
