@@ -6,20 +6,25 @@ import Link from "next/link";
 export default function Home({ posts }) {
   return (
     <Layout>
-      <h1 className="text-red-500">Hello world</h1>
-      {
-        posts.map(post=>(
-          <Link href={`post/${post.fields.slug}`}key={post.sys.id}>
-          <Card
-            title={post.fields.title} 
-            excerpt={post.fields.excerpt} 
-            img={post.fields.featuredImage.fields.file.url}
-            slug={post.fields.slug}
-            />
-            </Link>
-            
-        ))
-      }
+      <div id="homepage">
+        <div id="home_content">
+          {
+            posts.map(post=>(
+              <Link href={`post/${post.fields.slug}`}key={post.sys.id}>
+              <Card
+                title={post.fields.title} 
+                excerpt={post.fields.excerpt} 
+                img={post.fields.featuredImage.fields.file.url}
+                slug={post.fields.slug}
+                />
+                </Link>
+                
+            ))
+          }
+        </div>
+      </div>
+      
+      
     </Layout>
   )
 }
