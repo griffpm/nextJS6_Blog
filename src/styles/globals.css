@@ -176,6 +176,49 @@ nav p span{
     margin-bottom: 10px;
 }
 
+/*----------------------------------------------------------------------------------*/
+/* footer */
+footer{
+    background-color: #302f3b;
+    color: #ffffff;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#foot_content{
+    width: clamp(320px, 80%, 1500px);
+    
+}
+
+#foot1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#foot1 h2{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 800;
+}
+#foot1 h2 span{
+    color: #fff700;
+    font-weight: 600;
+}
+
+
+#foot1 .foot11{
+    width: 320px;
+    margin: 2rem 0;
+    /* border: solid 3px rgb(187, 15, 44); */
+}
+
+#foot1 h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 
 /*-----------------------------------------------------------------------------------------------------------------------------*/
 /* Media Querry*/
@@ -209,7 +252,7 @@ nav p span{
     #menu_content ul li{
         color: #ffffff;
         font-size: 1.5rem;
-        font-weight: 300;
+        font-weight: 600;
     }
 }
 
