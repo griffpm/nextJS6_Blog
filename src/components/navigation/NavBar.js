@@ -38,9 +38,9 @@ export default function NavBar() {
                             <li>Contact</li>
                         </Link>
 
-                        <Link href='/post/22'>
+                        {/* <Link href='/post/22'>
                             <li>Voir Post</li>
-                        </Link>
+                        </Link> */}
                     </ul>
                     </div>
                 </div>

@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
         </div>
         <div id='foot2' className='flex justify-center' >
-          <p className='flex text-[1.5rem]'>Copyright <span><AiFillCopyrightCircle className='mt-2 mx-2'/></span>2023 All rights reserved | This template is made with <span className='mx-2'>❤️</span> by Colorlib</p>
+          <p className='flex text-[1.5rem]'>Copyright <span><AiFillCopyrightCircle className='mt-2 mx-2'/></span>2023 All rights reserved | This template is made with ❤️ by Colorlib</p>
         </div>
     </div>
     </footer>

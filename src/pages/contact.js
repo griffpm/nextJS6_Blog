@@ -26,7 +26,7 @@ export default function contact() {
                   <input type="text" placeholder='Subjet of your Message' />
                 </div>
                 <div>
-                  <textarea name="" id="" cols="85" rows="10" placeholder='Message'></textarea>
+                  <textarea name="" id="" placeholder='Message'></textarea>
                 </div>
                 <div>
                   <button>Send Message</button>
@@ -34,7 +34,7 @@ export default function contact() {
               </form>
             </div>
             <div id='contact_map'>
-
+              <img src="/img/map.jpg" alt="google map" />
             </div>
           </div>
         </div>
