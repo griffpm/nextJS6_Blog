@@ -73,7 +73,27 @@ export default function Index({post}) {
           <br/>
           Duis dapibus lacinia pretium. Quisque tincidunt, velit at condimentum scelerisque, ante purus tempor orci, eu consectetur ex leo eu massa. Sed ac congue massa. Sed posuere ultrices arcu, eu ultrices ante iaculis eu. Sed elit sem, vestibulum sed porttitor et, convallis at nibh. Cras sodales, ipsum quis auctor vestibulum, lectus nisl consequat lorem, non ultricies nisi purus blandit risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam et eleifend eros.
           <br/>
-          Sed sodales ullamcorper leo, sit amet viverra sem fringilla et. Maecenas non nulla eget sapien ultricies ullamcorper non nec arcu. Praesent erat arcu, placerat quis sapien eget, efficitur molestie lorem. Nullam nec placerat metus. Phasellus viverra eu ex at sodales. Mauris interdum et justo in aliquam. Etiam ultricies dolor tellus, eu cursus ligula pulvinar vel. Quisque vehicula tristique molestie. Donec arcu lectus, pellentesque sit amet lorem egestas, maximus luctus leo. Vivamus hendrerit convallis ex eu mollis.</p>
+          Sed sodales ullamcorper leo, sit amet viverra sem fringilla et. Maecenas non nulla eget sapien ultricies ullamcorper non nec arcu. Praesent erat arcu, placerat quis sapien eget, efficitur molestie lorem. Nullam nec placerat metus. Phasellus viverra eu ex at sodales. Mauris interdum et justo in aliquam. Etiam ultricies dolor tellus, eu cursus ligula pulvinar vel. Quisque vehicula tristique molestie. Donec arcu lectus, pellentesque sit amet lorem egestas, maximus luctus leo. Vivamus hendrerit convallis ex eu mollis.
+          </p>
+
+          <div className='flex space-x-4'>
+            <CardTag tag="LIFE"/>
+            <CardTag tag="SPORT"/>
+            <CardTag tag="TECH"/>
+            <CardTag tag="TRAVEL"/>
+          </div>
+
+          <div id='commentaires'>
+            <div id="profil">
+              <div id='profil_img'>
+                <img src="/img/person_1.jpg" alt="" />
+              </div>
+              <div>
+                <h3>George Washington</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a lobortis ipsum. Nam a ante feugiat, dapibus erat et, volutpat mauris. Aenean fermentum quam ipsum, in pharetra tortor tempus vitae. Suspendisse ut dapibus mauris. Integer orci nisl, maximus in augue ac, mollis gravida tortor.</p>
+              </div>
+            </div>
+          </div>
           
         </div>
         <div id='column2'>
