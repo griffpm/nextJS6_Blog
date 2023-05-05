@@ -9,9 +9,9 @@ export default function CardBlog({img, date, author, nbCom, title}) {
         <div>
             <h4>{title}</h4>
             <div className='flex'>
-                <p>📅{date}</p>
-                <p>👤{author}</p>
-                <p>💬{nbCom}</p>
+                <p className='flex'>📅<span>{date}</span></p>
+                <p className='flex'>👤<span>{author}</span></p>
+                <p className='flex'>💬<span>{nbCom}</span></p>
             </div>
         </div>
     </div>
